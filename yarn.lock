@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-rn-slider-gallery@^1.0.13:
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/rn-slider-gallery/-/rn-slider-gallery-1.0.13.tgz#df11a064e3b96d0a59574e4ebfbf074e7c831a0f"
-  integrity sha512-4mkddvDF1gul+zIDwWC3Uo9RdVGrMWv3OjlHncBqp3dkCbFdDAkUw9+DWK0w6p/trNc7lxN9OanUj9AHwHD6QQ==
+react-native-image-pan-zoom@^2.1.11:
+  version "2.1.11"
+  resolved "https://registry.yarnpkg.com/react-native-image-pan-zoom/-/react-native-image-pan-zoom-2.1.11.tgz#61bcb69219d95e76a9797d23e4a2e8e0bd654ae9"
+  integrity sha512-ZCisGUFpPchHXsjT7ZI0anlSLPgcTmjRKXqpVnPu3RDWFXfKjuL4zpY57DX4Y8YgGZCpbf9fApN7KjVYody2Mw==
