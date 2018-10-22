@@ -250,7 +250,7 @@ export default class ImageViewer extends React.Component<Props, State> {
       ? this.positionXNumber - this.standardPositionX > (this.props.flipThreshold || 0)
       : this.positionXNumber - this.standardPositionX < -(this.props.flipThreshold || 0);
 
-    if (vxRTL > 0.9) {
+    if (vxRTL > 0.7) {
       // 上一张
       this.goBack.call(this);
 
@@ -259,7 +259,7 @@ export default class ImageViewer extends React.Component<Props, State> {
         this.loadImage((this.state.currentShowIndex || 0) - 1);
       }
       return;
-    } else if (vxRTL < -0.9) {
+    } else if (vxRTL < -0.7) {
       // 下一张
       this.goNext.call(this);
       if (this.state.currentShowIndex || 0 < this.props.imageUrls.length - 1) {
